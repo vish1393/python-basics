@@ -114,9 +114,21 @@ def gen_random_numbers():
     else:
         print("its Head")
 
-gen_random_numbers()
+def for_loop_example():
+    numbs=[1,2,3,4,10]
+    for x in numbs:
+        print(x)
 
 
+scores = [180, 29, 75, 89, 100, 250, 99, 150]
 
+max_scores = 0
+for sc in scores:
+    if sc > max_scores:
+        max_scores = sc
+print(max_scores)
 
-
+temp = 0
+for i in range(1,101):
+    temp = temp + i
+print(temp)
